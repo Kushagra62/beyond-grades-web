@@ -7,11 +7,11 @@ const PLAY_URL = "https://play.google.com/store/apps/details?id=roy.ij.beyondgra
 
 const features = [
   { title: "Peer-Based Feedback", description: "Get authentic insights from teammates who know your work best." },
-  { title: "Skill Analytics", description: "Track your growth in key areas like Leadership and Communication over time." },
+  { title: "EPA Score", description: "A unique score that reflects your growth beyond academics." },
   { title: "Holistic Portfolio", description: "Build a comprehensive profile that showcases more than just your GPA." },
-  { title: "Structured Evaluation", description: "Organizers can use predefined rubrics for fair and consistent feedback." },
-  { title: "Recruiter Visibility", description: "Share a verified soft skills report with potential employers." },
-  { title: "Privacy Focused", description: "Your data is yours. We are committed to transparency and security." },
+  { title: "Growth Dashboard", description: "Track progress, achievements, and skill development over time." },
+  { title: "Recruiter Visibility", description: "Share a verified life skills report with potential employers." },
+  { title: "Gamified Elements", description: "Badges, levels, and leaderboards that make growth fun and engaging." },
 ];
 
 export default function AboutPage() {
@@ -22,7 +22,7 @@ export default function AboutPage() {
         <div className={styles.heroText}>
           <h1 className={styles.headline}>Go Beyond Grades.</h1>
           <p className={styles.subtext}>
-            Quantify your soft skills with peer-based feedback from college events. Build a portfolio that truly represents your capabilities.
+            Quantify your life skills with peer-based feedback from college events. Build a portfolio that truly represents your capabilities.
           </p>
           <PlayStoreButton 
             href={PLAY_URL} 
@@ -50,16 +50,28 @@ export default function AboutPage() {
         <h2 className={styles.sectionTitle}>How It Works</h2>
         <div className={styles.stepsGrid}>
           <div className={styles.step}>
-            <h3>1. Participate</h3>
-            <p>Engage in college fests, projects, or workshops as you normally would.</p>
+            <h3>1. Join Events</h3>
+            <p>Participate in college fests, competitions, and activities.Every event becomes a chance to learn and grow.</p>
           </div>
           <div className={styles.step}>
             <h3>2. Give & Get Feedback</h3>
-            <p>After the event, use the app to give and receive anonymous, structured feedback from your peers on key soft skills.</p>
+            <p>Students and organizers share structured feedback.Skills like teamwork, creativity, and leadership get highlighted.</p>
           </div>
           <div className={styles.step}>
-            <h3>3. Track & Share</h3>
-            <p>See your skills grow over time. Share your verified EPA profile with recruiters to stand out.</p>
+            <h3>3. Build Your EPA Score</h3>
+            <p>All feedback adds to your EPA Score.It’s a unique measure of your growth beyond academics.</p>
+          </div>
+          <div className={styles.step}>
+            <h3>4. Track Growth</h3>
+            <p>Your EPA Score feeds into a personal dashboard. See progress, achievements, and areas to improve.</p>
+          </div>
+          <div className={styles.step}>
+            <h3>5. Showcase Portfolio</h3>
+            <p>Your journey builds a placement-ready portfolio. Show recruiters who you are, beyond grades.</p>
+          </div>
+          <div className={styles.step}>
+            <h3>6. Empower Colleges & Recruiters</h3>
+            <p>Colleges get insights into student development.Recruiters discover well-rounded, high-potential talent.</p>
           </div>
         </div>
       </section>
