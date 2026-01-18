@@ -1,0 +1,39 @@
+├── .gitignore
+├── app
+│   ├── about
+│   │   ├── About.module.css
+│   │   └── page.tsx
+│   ├── components
+│   │   ├── Footer
+│   │   │   ├── Footer.module.css
+│   │   │   └── Footer.tsx
+│   │   ├── Header
+│   │   │   ├── Header.module.css
+│   │   │   └── Header.tsx
+│   │   └── PlayStoreButton
+│   │       ├── PlayStoreButton.module.css
+│   │       └── PlayStoreButton.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.module.css
+│   └── page.tsx
+├── eslint.config.mjs
+├── folder-structure.txt
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── print-structure.js
+├── public
+│   ├── feature-icon.svg
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── hero-illustration.png
+│   ├── logo.svg
+│   ├── next.svg
+│   ├── playstore-badge.png
+│   ├── vercel.svg
+│   └── window.svg
+├── README.md
+└── tsconfig.json
